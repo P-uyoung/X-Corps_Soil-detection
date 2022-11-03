@@ -6,7 +6,7 @@ Logistics
 
 1. Data selection
     1. 기간
-        1. 2022년 6월부터 2022년 10월까지 sentinel2 위성 
+        1. 2022년 6월부터 2022년 10월까지 sentinel2 위성 다중분광 이미지
     2. 지역
         1. 대한민국 이천시  
     3. Bare soil
