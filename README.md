@@ -6,9 +6,9 @@ Logistics
 
 1. Data selection
     1. 기간
-        1. 2022년 5월부터 2022년 10월까지 
+        1. 2022년 5월부터 2022년 10월까지 sentinel2 위성 
     2. 지역
-        1. 대한민국 이천시 토양 데이터    
+        1. 대한민국 이천시  
     3. Bare soil
         1. 선행 연구에 의하면 bare soil이어야 sentinel-2A remote sensing data와 SOC와의 관계가 reliable함
         2. NVDI (Normalized difference vegetation index)
