@@ -6,8 +6,10 @@ Logistics
 
 1. Data selection
     1. 기간
-        1. 2022년 5월부터 2022년 10월까지
-    2. Bare soil
+        1. 2022년 5월부터 2022년 10월까지 
+    2. 지역
+        1. 대한민국 이천시 토양 데이터    
+    3. Bare soil
         1. 선행 연구에 의하면 bare soil이어야 sentinel-2A remote sensing data와 SOC와의 관계가 reliable함
         2. NVDI (Normalized difference vegetation index)
             1. NVDI가 낮은 토양은 bare하다고 볼 수 있으므로 NVDI가 낮은 data를 고른다
@@ -15,7 +17,7 @@ Logistics
         3. BSI (Bare Soil Index)
             1. BSI가 높은 토양은 bare하다고 볼 수 있으므로 BSI가 높은 data를 고른다.
             2. 0.1 이상
-    3. S2A remote sensing data
+    4. S2A remote sensing data
         1. B2 ~ B12
 2. Data type
     1. 10m resolution
