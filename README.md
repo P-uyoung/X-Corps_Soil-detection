@@ -48,6 +48,8 @@ Logistics
         1. 1단계에서 제일 잘 fit 되는 모델로 다음과 같이 네 번의 모델링을 한다.
         
         <img width="398" alt="image" src="https://user-images.githubusercontent.com/63593428/199702219-f815e88a-d5fa-43b0-b08d-529329d61ace.png">
+        
+    3. training data set:validation data set =  3:1
 
     
         	
