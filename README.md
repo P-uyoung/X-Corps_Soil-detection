@@ -50,6 +50,10 @@ Logistics
         <img width="398" alt="image" src="https://user-images.githubusercontent.com/63593428/199702219-f815e88a-d5fa-43b0-b08d-529329d61ace.png">
         
     3. training data set:validation data set =  3:1
+    4. Evaluation
+        1. RMSE (Root Mean Squared Error)
+        2. R-squared
+        3. RPD (Relative Percent Difference)
 
     
         	
