@@ -37,7 +37,7 @@ Logistics
 4. Label
     1. SOC (Soil Organic Carbon)
 6. Normalize
-    1. Min-Max Normalization
+    1. band를 10000으로 나눈다.
 7. Model
     1. 1단계: 20m resolution data를 가지고 다음 네 가지method로 모델링한다.
         1. RF (Random Forest)
