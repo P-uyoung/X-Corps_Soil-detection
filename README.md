@@ -1,6 +1,5 @@
 # X-Corps_Soil-detection
-SNU X-Corps Project : detection of SOC using deep learning 
-
+SNU X-Corps Project : detection of SOC using machine learning
 
 Logistics
 
@@ -43,17 +42,14 @@ Logistics
         1. RF (Random Forest)
         2. SVM (Support Vector Machine)
         3. PLSR (Partial Least Squares Regression)
-        4. ANN (Artificial Neural Network)
+
     2. 2단계
         1. 1단계에서 제일 잘 fit 되는 모델로 다음과 같이 네 번의 모델링을 한다.
         
         <img width="398" alt="image" src="https://user-images.githubusercontent.com/63593428/199702219-f815e88a-d5fa-43b0-b08d-529329d61ace.png">
         
-    3. training data set:validation data set =  3:1
+    3. train dataset : test dataset =  8:2
     4. Evaluation
-        1. RMSE (Root Mean Squared Error)
-        2. R-squared
-        3. RPD (Relative Percent Difference)
-
+        1. R-squared
     
         	
