@@ -1,5 +1,5 @@
 # X-Corps_Soil-detection
-SNU X-Corps Project : detection of SOC using machine learning
+SNU X-Corps Project : Detection of SOC using machine learning
 
 Logistics
 
@@ -22,23 +22,30 @@ Logistics
     1. 10m resolution
     2. 20m resolution
 3. Feature
-    1. 1단계
+    1. 기존 연구 방법대로
         1. B2 ~ B12
         2. NDVI
         3. BSI
-    2. 2단계
+    2. Approach1 : hybrid remote sensing
         1. B2 ~ B12
         2. NDVI
         3. BSI
         4. 토양에서 직접 추출한 feature
             1. SWHC (Soil Water Holing Capacity)
             2. Sand (%)
+    3. Approach2 : full remote sensing
+        1. B2 ~ B12
+        2. NDVI
+        3. BSI
+        4. SAR (synthetic aperture radar)
+            1. before rain
+            2. after rain
 4. Label
     1. SOC (Soil Organic Carbon)
 6. Normalize
     1. band를 10000으로 나눈다.
 7. Modeling
-    1. 1단계: 20m resolution data를 가지고 다음 네 가지method로 모델링한다.
+    1. 1단계: 20m resolution data를 가지고 다음 세 가지 method로 모델링한다.
         1. RF (Random Forest)
         2. SVM (Support Vector Machine)
         3. PLSR (Partial Least Squares Regression)
