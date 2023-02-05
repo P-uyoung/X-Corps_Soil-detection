@@ -1,9 +1,11 @@
 <h2 align="center">X-Corps_Soil-detection</h2>
-> 서울대학교 실전문제연구단
-<br/>
-> 토양의 질(soil organic carbon, SOC) 예측 팀프로젝트
-<br/>
+
+> 서울대학교 실전문제연구단 팀프로젝트
+
+> 토양의 질(soil organic carbon, SOC) 예측
+
 > 프로젝트 기간 : 2022.05.31 ~ 2022.11.31 (6개월)
+
 <!-- >https://go-quality.dev   -->
 
 ## **목차** 
