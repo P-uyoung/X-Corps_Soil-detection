@@ -49,7 +49,7 @@
 <div markdown="1">
 
 ### 3.1. 프로젝트 프로세스
-<img src="https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/process.png">
+![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/process.png)
 
 ### 4.2. 사용자 요청
 ![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_vue.png)
