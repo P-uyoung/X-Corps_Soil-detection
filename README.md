@@ -10,8 +10,8 @@
 <b>
 
 - [프로젝트 요약](#프로젝트-요약)
-- [기술 및 도구](#-기술-및-도구)
-- [구현](#-프로젝트-구현)
+- [기술 및 도구](#기술-및-도구)
+- [구현](#구현)
   - [라이트/다크 모드](#1-라이트/다크-모드)
   - [Hash Link](#2-Hash-Link)
   - [반응형 웹](#3-반응형-웹)
@@ -19,15 +19,14 @@
   - [Open graph](#5-Open-graph)
 - [트러블 슈팅](#-트러블-슈팅)
 - [커밋 히스토리](#-커밋-히스토리)
-
 </b>
-
+<br/>
 
 ## **프로젝트 요약**
 - 토양의 질(SOC 함량)을 예측하는 데 있어서, input features를 제거 및 추가하여 기존 논문의 정확도에서 **"60% (0.52->0.83 결정계수) 성능이 향상된"** 모델을 만들었습니다.
 - 토양 황폐화 상태를 SOC 모니터링을 통해 점검하고 예방할 수 있습니다.
 - 논문 작성 중입니다. (3월초 투고예정)
-
+<br/>
 
 ## **기술 및 도구**
   <b>- 데이터 : </b>
@@ -41,12 +40,16 @@
   <b>- 논문 : </b>
   <span><img src="https://img.shields.io/badge/-Latex-008080?style=flat&logo=LaTex"></span>
 
+<br/>
+
+
+## **구현**
 <details>
-<summary><b>핵심 기능 설명 펼치기</b></summary>
+<summary><b>구현 설명 펼치기</b></summary>
 <div markdown="1">
 
-### 4.1. 전체 흐름
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow1.png)
+### 3.1. 프로젝트 프로세스
+<img src="https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/process.png">
 
 ### 4.2. 사용자 요청
 ![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_vue.png)
