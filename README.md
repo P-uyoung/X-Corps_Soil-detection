@@ -1,15 +1,15 @@
 <h2 align="center">X-Corps_Soil-detection</h2>
->서울대학교 실전문제연구단
+> 서울대학교 실전문제연구단
 <br/>
->토양의 질(soil organic carbon, SOC) 예측 팀프로젝트
+> 토양의 질(soil organic carbon, SOC) 예측 팀프로젝트
 <br/>
->프로젝트 기간 : 2022.05.31 ~ 2022.11.31 (6개월)
+> 프로젝트 기간 : 2022.05.31 ~ 2022.11.31 (6개월)
 <!-- >https://go-quality.dev   -->
 
 ## **목차** 
 <b>
 
-- [프로젝트 요약](#프로젝트-요약)
+- [요약](#요약)
 - [기술 및 도구](#기술-및-도구)
 - [구현](#구현)
   - [라이트/다크 모드](#1-라이트/다크-모드)
@@ -22,8 +22,9 @@
 </b>
 <br/>
 
-## **프로젝트 요약**
-- 토양의 질(SOC 함량)을 예측하는 데 있어서, input features를 제거 및 추가하여 기존 논문의 정확도에서 **"60% (0.52->0.83 결정계수) 성능이 향상된"** 모델을 만들었습니다.
+## **요약**
+- (input)MSI, SWHC, ST을 통해 (output)SOC 함량 예측
+- input features를 제거 및 추가하여 기존 논문의 정확도에서 **"60% (0.52->0.83 결정계수) 성능이 향상된"** 모델을 만들었습니다.
 - 토양 황폐화 상태를 SOC 모니터링을 통해 점검하고 예방할 수 있습니다.
 - 논문 작성 중입니다. (3월초 투고예정)
 <br/>
@@ -51,7 +52,7 @@
 ### 3.1. 프로젝트 프로세스
 ![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/process.png)
 
-### 4.2. 사용자 요청
+### 3.2. 사용자 요청
 ![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_vue.png)
 
 - **URL 정규식 체크** :pushpin: [코드 확인](https://github.com/Integerous/goQuality/blob/b587bbff4dce02e3bec4f4787151a9b6fa326319/frontend/src/components/PostInput.vue#L67)
