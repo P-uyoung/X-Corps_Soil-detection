@@ -1,16 +1,15 @@
 <h2 align="center">X-Corps_Soil-detection</h2>
->토양의 질(SOC함량) 예측 프로젝트
+>서울대학교 실전문제연구단
 <br/>
->SNU Xcorps 팀프로젝트
->
+>토양의 질(soil organic carbon, SOC) 예측 팀프로젝트
+<br/>
 >프로젝트 기간 : 2022.05.31 ~ 2022.11.31 (6개월)
 <!-- >https://go-quality.dev   -->
-</br>
 
 ## **목차** 
 <b>
 
-- [소개](#-프로젝트-요약)
+- [프로젝트 요약](#프로젝트-요약)
 - [기술 및 도구](#-기술-및-도구)
 - [구현](#-프로젝트-구현)
   - [라이트/다크 모드](#1-라이트/다크-모드)
@@ -24,10 +23,23 @@
 </b>
 
 
-## 2. 데이터 수집
-이 서비스의 핵심 기능은 컨텐츠 등록 기능입니다.  
-사용자는 단지 컨텐츠의 카테고리를 선택하고, URL만 입력하면 끝입니다.  
-이 단순한 기능의 흐름을 보면, 서비스가 어떻게 동작하는지 알 수 있습니다.  
+## **프로젝트 요약**
+- 토양의 질(SOC 함량)을 예측하는 데 있어서, input features를 제거 및 추가하여 기존 논문의 정확도에서 **"60% (0.52->0.83 결정계수) 성능이 향상된"** 모델을 만들었습니다.
+- 토양 황폐화 상태를 SOC 모니터링을 통해 점검하고 예방할 수 있습니다.
+- 논문 작성 중입니다. (3월초 투고예정)
+
+
+## **기술 및 도구**
+  <b>- 데이터 : </b>
+  <span><img src="https://img.shields.io/badge/Python-05122A?style=flat-square&logo=python"/></span>
+  <span><img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"></span>
+  <span><img src="https://img.shields.io/badge/Snap-071D49?style=flat-square&logo=Snap&logoColor=white"/></span>
+  <br/>
+  <b>- 모델링 : </b>
+  <span><img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"></span>
+  <br/>
+  <b>- 논문 : </b>
+  <span><img src="https://img.shields.io/badge/-Latex-008080?style=flat&logo=LaTex"></span>
 
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
