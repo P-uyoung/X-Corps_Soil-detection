@@ -18,6 +18,7 @@
   - [프로세스](#1-프로세스)
   - [데이터 수집](#2-데이터-수집)
   - [모델링](#3-모델링)
+- [트러블 슈팅](#트러블-슈팅)
 - [커밋 히스토리](#-커밋-히스토리)
 </b>
 <br/>
@@ -103,7 +104,42 @@
 
 </br>
 
+## 트러블 슈팅
+### 1. 훈련데이터가 적어서 모델이 과적합 됨.
+- 문제상황 : Train의 성능 , test의 성능이 ~으로, 과적합 모델임. 
+![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/overfitting.png)  
+<details>
+<summary><b>기존 코드</b></summary>
+<div markdown="1">
+
+~~~python
+
+
+~~~
+
+</div>
+</details>
+
+- 해결방법 : 데이터 증강을 통해 훈련데이터 수를 증가시킴.
+![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/final.png)
+<details>
+<summary><b>수정 코드</b></summary>
+<div markdown="1">
+
+~~~python
+
+
+~~~
+
+</div>
+</details>
+
+
+<br/>
+
+
 ## 커밋 히스토리
 [커밋 히스토리 확인하기](https://github.com/P-uyoung/X-Corps_Soil-detection/commits/main)
+
 <!-- ## 6. 회고 / 느낀점
 >프로젝트 개발 회고 글: https://zuminternet.github.io/ZUM-Pilot-integer/ -->
