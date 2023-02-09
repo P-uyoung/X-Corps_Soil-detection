@@ -46,10 +46,11 @@
 
 
 ## **구현**
+<!-- 
 <details>
 <summary><b>구현 설명 펼치기</b></summary>
 <div markdown="1">
-
+   -->
 ### 1. 프로세스
 ![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/process.png)
 
@@ -98,10 +99,10 @@
         3. train dataset : test dataset =  8:2
         4. Evaluation
             1. R-squared
-
+<!-- 
 </div>
 </details>
-
+   -->
 </br>
 
 ## 트러블 슈팅
