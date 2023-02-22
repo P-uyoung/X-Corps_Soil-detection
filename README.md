@@ -46,11 +46,10 @@
 
 
 ## **구현**
-<!-- 
 <details>
 <summary><b>구현 설명 펼치기</b></summary>
 <div markdown="1">
-   -->
+
 ### 1. 프로세스
 ![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/process.png)
 
@@ -64,8 +63,12 @@
 - 모델링 결과
 ![](https://github.com/P-uyoung/X-Corps_Soil-detection/blob/main/figure/result.png)  
 - [코드 확인](https://github.com/P-uyoung/X-Corps_Soil-detection/tree/main/uyoung_model)  
-- 상세 설명  
-    1. 10m resolution  
+- 상세 설명 
+  <details>
+  <summary>상세 설명 </summary>
+  <div markdown="1">
+
+  1. 10m resolution  
     2. 20m resolution  
     3. Feature  
         1. 1단계 - 기존 연구 방법대로
@@ -99,10 +102,14 @@
         3. train dataset : test dataset =  8:2
         4. Evaluation
             1. R-squared
-<!-- 
+
+  </div>
+  </details>
+    
+
 </div>
 </details>
-   -->
+
 </br>
 
 ## 트러블 슈팅
