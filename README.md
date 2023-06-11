@@ -35,7 +35,7 @@
   <span><img src="https://img.shields.io/badge/Python-05122A?style=flat-square&logo=python"/></span>
   <span><img src="https://img.shields.io/badge/Qgis-589632?style=flat-square&logo=Qgis&logoColor=white"></span>
   <span><img src="https://img.shields.io/badge/Snap-071D49?style=flat-square&logo=Snap&logoColor=white"/></span>
-  <span><img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=ApacheAirflow&logoColor=white"/></span>
+  <span><img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/></span>
   
   <br/>
   <b>- 모델링 : </b>
